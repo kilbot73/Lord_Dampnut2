@@ -1,0 +1,15 @@
+{
+    "manifest_version": 3,
+    "name": "Lord Dampnut",
+    "version": "1.0",
+    "description": "Replace instances of 'Donald Trump' with 'Lord Dampnut', inspired by Colin Mochrie's Tweet.",
+    "content_scripts":
+    [
+        {
+            "matches": ["*://*/*"],
+            "js": ["content_script.js"],
+            "runt_at": "document_end"
+        }
+    ]
+
+}
