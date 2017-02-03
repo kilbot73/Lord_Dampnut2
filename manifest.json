@@ -3,6 +3,9 @@
     "name": "Lord Dampnut",
     "version": "1.0",
     "description": "Replace instances of 'Donald Trump' with 'Lord Dampnut', inspired by Colin Mochrie's Tweet.",
+	"icons": { "lord_dampnut16": ".png",
+           "48": "lord_dampnut48.png",
+          "128": "lord_dampnut128.png" },
     "content_scripts":
     [
         {
